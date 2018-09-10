@@ -19,8 +19,8 @@
 </ul>
 
 <input #userNumber type="text">
-<br>
+<br><br>
 <button (click)="startCounter(userNumber.value)">Do it</button>
 <br>
 <br>
-<h3>{{currentNumber}}</h3>
+<app-counter [end]="params"></app-counter>
